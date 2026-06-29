@@ -64,42 +64,33 @@ h1 {
   min-height: 100vh;
 }
 
-/* LEFT NAV BAR */
-.left-nav {
-  background: #111;
-  border-right: 2px solid #ff7a00;
-}
-
-/* MAIN CONTENT */
-.content {
-  padding: 20px;
-}
-
-/* RIGHT AD BAR */
-.right-ads {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 240px;
-  height: 100vh;
-  background: #111;
-  border-left: 2px solid #ff7a00;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 
 
 /* MOBILE: collapse both sidebars */
 @media (max-width: 768px) {
-  .layout {
-    grid-template-columns: 1fr;
+
+  /* Hide both fixed sidebars */
+  .nav-bar,
+  .ads-sidebar {
+    display: none;
   }
 
-  .left-nav,
-  .right-ads {
-    display: none;
+  /* Remove the forced 240px margins */
+  .page-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  /* Make the grid behave on mobile */
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .video-item {
+    max-width: 100%;
   }
 }
 
