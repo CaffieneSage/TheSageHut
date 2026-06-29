@@ -69,6 +69,10 @@ h1 {
 /* MOBILE: collapse both sidebars */
 @media (max-width: 768px) {
 
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
   /* Hide both fixed sidebars */
   .sidebar,
   .ads-sidebar {
