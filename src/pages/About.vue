@@ -1,7 +1,9 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <p>This is the About page.</p>
+    <p>I am The Caffeine Sage, a gaming content creator on YouTube. Of late I have been creating guides for Guild Wars
+      Reforged and Enshrouded, as well as playing a variety of survival and adventure style games.
+    </p>
   </div>
 </template>
 
