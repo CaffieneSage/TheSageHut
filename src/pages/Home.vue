@@ -70,7 +70,7 @@ h1 {
 @media (max-width: 768px) {
 
   /* Hide both fixed sidebars */
-  .navigation,
+  .sidebar,
   .ads-sidebar {
     display: none;
   }
