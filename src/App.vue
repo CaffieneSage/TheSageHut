@@ -1,27 +1,38 @@
 <script setup>
-  import Navigation from './components/Navigation.vue'
-  import Ads from './components/Ads.vue';
+import AdsNavigation from './components/AdsNavigation.vue';
+import MobileNavigation from './components/MobileNavigation.vue';
+import Navigation from './components/Navigation.vue';
 </script>
 
 <template>
+  <mobile-navigation />
   <navigation />
+  <ads-navigation />
   <main class="content-layer">
     <router-view />
   </main>
-  <Ads />
 </template>
 
 <style>
 body {
   margin: 0;
-  background-color: #1a1a1a; /* charcoal grey */
+  background-color: #1a1a1a;
+  /* charcoal grey */
   color: #e0e0e0;
   font-family: sans-serif;
 }
 
 .content-layer {
-  margin-left: 240px; /* same width as sidebar */
+  margin-left: 240px;
+  margin-right: 240px;
   padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .content-layer {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 </style>

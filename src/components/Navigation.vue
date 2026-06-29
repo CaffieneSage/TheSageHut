@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <nav class="sidebar">
+  <nav class="navigation">
     <div class="logo-area">
         <img class="logo-img" :src="TCSBanner">
     </div>
@@ -21,7 +21,7 @@
 
 
 <style scoped>
-.sidebar {
+.navigation {
   position: fixed;
   top: 0;
   left: 0;
