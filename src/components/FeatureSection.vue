@@ -77,17 +77,6 @@ defineProps({
   flex-direction: row-reverse;
 }
 
-@media (max-width: 768px) {
-  .feature-section,
-  .reverse {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .feature-image img {
-    max-width: 100%;
-  }
-}
 
 .feature-buttons {
   margin-top: 15px;
@@ -110,4 +99,32 @@ defineProps({
   background: #ffa64d;
   transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+  .feature-section {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 20px 0;
+  }
+
+  .feature-section.reverse {
+    flex-direction: column;
+  }
+
+  .feature-image img {
+    width: 100%;
+    max-width: none;
+  }
+
+  .feature-text {
+    width: 100%;
+  }
+
+  .feature-buttons {
+    justify-content: center;
+  }
+}
+
 </style>
