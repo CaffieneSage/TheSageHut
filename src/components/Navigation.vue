@@ -75,4 +75,11 @@
 .nav-links a:hover {
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
+}
+
 </style>
