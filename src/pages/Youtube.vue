@@ -144,4 +144,15 @@ export default {
   font-size: 0.9rem;
   color: #ccc;
 }
+
+@media (max-width: 768px) {
+  .page-wrapper,
+  .youtube,
+  .video-grid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 10px;
+  }
+}
+
 </style>
