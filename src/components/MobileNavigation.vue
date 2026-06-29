@@ -5,9 +5,13 @@
     </button>
 
     <div v-if="open" class="mobile-menu">
-      <router-link to="/" @click="open = false">Home</router-link>
-      <router-link to="/guides" @click="open = false">Guides</router-link>
-      <router-link to="/about" @click="open = false">About</router-link>
+      <ul class="nav-links">
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/youtube">Youtube</router-link></li>
+      <li><router-link to="/about">About</router-link></li>
+      <li><router-link to="/support">Support Me</router-link></li>
+      <li><router-link to="/privacy">Privacy</router-link></li>
+    </ul>
     </div>
   </div>
 </template>
