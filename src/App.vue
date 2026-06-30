@@ -1,7 +1,10 @@
 <script setup>
+import { inject } from '@vercel/analytics';
 import AdsNavigation from './components/AdsNavigation.vue';
 import MobileNavigation from './components/MobileNavigation.vue';
 import Navigation from './components/Navigation.vue';
+
+inject();
 </script>
 
 <template>
