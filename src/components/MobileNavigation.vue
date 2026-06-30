@@ -12,6 +12,16 @@
                 <li><router-link to="/support" @click="open = false">Support Me</router-link></li>
                 <li><router-link to="/privacy" @click="open = false">Privacy</router-link></li>
 
+                <li class="mobile-guides">
+                    <span class="section-title">Guides</span>
+                    <ul class="guide-links">
+                        <li><router-link to="/guides/guildwars" @click="open = false">Guild Wars</router-link></li>
+                        <li><router-link to="/guides/ElementalistStarterElites" @click="open = false">Elementalist
+                                Elites</router-link></li>
+                        
+                    </ul>
+                </li>
+
             </ul>
         </div>
     </div>
@@ -54,6 +64,31 @@ const open = ref(false)
     color: #fff;
     font-size: 20px;
 }
+
+.mobile-guides {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-size: 22px;
+    color: #ff7a00;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.guide-links {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.guide-links a {
+    color: #fff;
+    font-size: 18px;
+}
+
 
 @media (max-width: 768px) {
     .mobile-nav {
