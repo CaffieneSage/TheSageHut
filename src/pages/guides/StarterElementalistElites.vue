@@ -12,9 +12,9 @@
       caption="Double Dragon, Mind Freeze and Master Of Magic Skill Icons!" />
 
     <GuideSection title="Double Dragon" :paragraphs="[
-      'Location: This elite is located in Wajjun Bazaar in Factions, and is capable as soon as you have unlocked travel between continents.',
+      'Location: This elite is located in Wajjun Bazaar in Factions, and is cappable as soon as you have unlocked travel between continents.',
       'Type: Double Dragon is a PBAOE fire vortex that targets yourself and another member of your party. It will cause some SERIOUS damage to any enemies that get near either person. ',
-      'Usage: You can just hit the skill and it will auto targer another valid member of your party, or you can click their name in the party menu and then use the skill to target them specifically!',
+      'Usage: You can just hit the skill and it will auto target another valid member of your party, or you can click their name in the party menu and then use the skill to target them specifically!',
       'A Simple Double Dragon Build: OgNDoMz/MCjixQcXgMwF0CZC',
     ]" />
 
@@ -23,8 +23,8 @@
 
     <GuideSection title="Mind Freeze" :paragraphs="[
       'Location: This skill is again cappable in Factions, this time in the Undercity from Baubao Wavewrath, a Kappa Elementalist boss.',
-      'Type: Mind Freeze is a great little skill, it deals direct damage to one enemy and applies a brutal, if short lasting slow effect. It also causes exhaustion allowing you to run skills that gain additional effects like Swirling Aura when exhausted!',
-      'Usage: Use the skill to apply direct damage (doubled if you have more energy than your opponent), and watch as they struggle to reach you. Great for targeting melee enemies! Hit swirling aura to watch your party get a massive health regen hit and 50% block chance for projectiles for 10 seconds while the exhaustion is present, your healer will thank you!',
+      'Type: Mind Freeze is a great little skill, it deals direct damage to one enemy and applies a brutal, if short lasting slow effect. It also causes exhaustion, allowing you to run skills that gain additional effects like Swirling Aura, when exhausted!',
+      'Usage: Use the skill to apply direct damage (doubled if you have more energy than your opponent), and watch as they struggle to reach you. Great for targeting melee enemies! Hit swirling aura to watch your party get a massive health regen hit and 50% block chance for projectiles for several seconds while the exhaustion is present, your healer will thank you!',
       'A Simple Mind Freeze Build: OgNDsMz/EWbdTLaIDapTmA',
     ]" />
 
@@ -33,7 +33,7 @@
 
     <GuideSection title="Master Of Magic" :paragraphs="[
       'Location: This one is captured from the Consulate Dock mission in Nightfall, from Captain Mwende',
-      'Type: This is an energy storage skill ans it boosts your elemental attributes, allowing you to run spells from multiple elements on your skillbar, as well as having points left over to put into say, mesmer or necro attributes for giggles.',
+      'Type: This is an energy storage skill and it boosts your elemental attributes. It allows you to run spells from multiple elements on your skillbar, as well as having points left over to put into mesmer or necro attributes for giggles.',
       'Usage: Wear an Energy Storage headpeice and slap an Energy Storage rune on it, maintain the Elite Enchantment as much as possible for a buff to your Elemental attributes! Watch out for disenchants!',
       'Step 1: Take Master Of Magic, Step 2: Take whatever spells you want! Build Template: OgVCMMzj1wc8NErwi0BRQAA'
     ]" , />
