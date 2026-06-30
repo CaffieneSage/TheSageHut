@@ -12,7 +12,7 @@
       caption="Double Dragon, Mind Freeze and Master Of Magic Skill Icons!" />
 
     <GuideSection title="Double Dragon" :paragraphs="[
-      'Location: This elite is located in Wajjun Bazaar in Factions, and is cappable as soon as you have unlocked travel between continents.',
+      'Location: This elite is located in Wajjun Bazaar in Factions, and is cappable as soon as you have unlocked travel between continents. Get it from Lian, Dragons Petal',
       'Type: Double Dragon is a PBAOE fire vortex that targets yourself and another member of your party. It will cause some SERIOUS damage to any enemies that get near either person. ',
       'Usage: You can just hit the skill and it will auto target another valid member of your party, or you can click their name in the party menu and then use the skill to target them specifically!',
       'A Simple Double Dragon Build: OgNDoMz/MCjixQcXgMwF0CZC',
