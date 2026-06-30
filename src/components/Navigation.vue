@@ -1,16 +1,24 @@
 <script setup>
-  import TCSBanner from '../assets/TCSBanner.png'
+import TCSBanner from '../assets/TCSBanner.png'
 </script>
 
 <template>
   <nav class="navigation">
     <div class="logo-area">
-        <img class="logo-img" :src="TCSBanner">
+      <img class="logo-img" :src="TCSBanner">
     </div>
 
     <ul class="nav-links">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/youtube">Youtube</router-link></li>
+
+      <li class="dropdown">
+        <span class="dropdown-title">Guides</span>
+        <ul class="dropdown-menu">
+          <li><router-link to="/guides/guildwars">Guild Wars</router-link></li>
+        </ul>
+      </li>
+
       <li><router-link to="/about">About</router-link></li>
       <li><router-link to="/support">Support Me</router-link></li>
       <li><router-link to="/privacy">Privacy</router-link></li>
@@ -76,10 +84,29 @@
   color: #fff;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown-title {
+  cursor: pointer;
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  padding-left: 20px; /* indent sub-items */
+  margin-top: 8px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .navigation {
     display: none;
   }
 }
-
 </style>

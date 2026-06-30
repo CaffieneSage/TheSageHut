@@ -10,7 +10,19 @@ const routes = [
   { path: '/youtube', component: Youtube },
   { path: '/about', component: About },
   { path: '/support', component: Support },
-  { path: '/privacy', component: Privacy }
+  { path: '/privacy', component: Privacy },
+  {
+  path: '/guides/guildwars',
+  component: () => import('../pages/guides/GuildWars.vue')
+  },
+  {
+    path: '/guides/enshrouded',
+    component: () => import('../pages/guides/Enshrouded.vue')
+  },
+  //Guides
+  { path: '/guides/ElementalistStarterElites', 
+    component: () => import('../pages/guides/StarterElementalistElites.vue'),
+  }
 
 ]
 
