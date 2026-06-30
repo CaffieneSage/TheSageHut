@@ -103,8 +103,10 @@ export default {
 }
 
 .page-wrapper {
-  margin-left: 240px;   /* nav bar width */
-  margin-right: 240px;  /* ad bar width */
+  margin-left: 240px;
+  /* nav bar width */
+  margin-right: 240px;
+  /* ad bar width */
   padding: 20px;
   flex-direction: column;
   align-items: center;
@@ -127,7 +129,6 @@ export default {
 
 .video-frame {
   aspect-ratio: 16 / 9;
-  /* modern responsive ratio */
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
@@ -146,6 +147,7 @@ export default {
 }
 
 @media (max-width: 768px) {
+
   .page-wrapper,
   .youtube,
   .video-grid {
@@ -154,5 +156,4 @@ export default {
     padding: 10px;
   }
 }
-
 </style>
