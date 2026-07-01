@@ -18,6 +18,8 @@
                         <li><router-link to="/guides/guildwars" @click="open = false">Guild Wars</router-link></li>
                         <li><router-link to="/guides/ElementalistStarterElites" @click="open = false">Elementalist
                                 Elites</router-link></li>
+                        <li><router-link to="/guides/ThreeMesmerSkills" @click="open = false">Elementalist
+                                Elites</router-link></li>
                         
                     </ul>
                 </li>

@@ -22,6 +22,9 @@ const routes = [
   //Guides
   { path: '/guides/ElementalistStarterElites', 
     component: () => import('../pages/guides/StarterElementalistElites.vue'),
+  },
+  { path: '/guides/ThreeMesmerSkills', 
+    component: () => import('../pages/guides/ThreeMesmerSkills.vue'),
   }
 
 ]

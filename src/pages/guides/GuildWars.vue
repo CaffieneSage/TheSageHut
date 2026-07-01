@@ -7,10 +7,16 @@
                 3 Easy Elementalist Elites (Beginner Guide)
             </router-link>
         </ul>
+        <ul>
+            <router-link to="/guides/ThreeMesmerSkills">
+                3 Mesmer Skills You Need To Cap! (Beginner Guide)
+            </router-link>
+        </ul>
     </GuideLayout>
 </template>
 
 <script setup>
 import GuideLayout from '../../components/GuideLayout.vue'
 import StarterElementalistElites from './StarterElementalistElites.vue';
+import ThreeMemerSkills from './ThreeMesmerSkills.vue';
 </script>
