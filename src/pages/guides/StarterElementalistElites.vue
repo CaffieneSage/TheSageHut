@@ -53,6 +53,8 @@
 
     <GuideVideo src="https://www.youtube.com/embed/B_jcwuYOkTk" caption="Earth Support (Sandstorm)" />
 
+    <GuideVideo src="https://www.youtube.com/embed/-CuYDppUbFU" caption="Glimmering Mark & Thunderclap" />
+
   </GuideLayout>
 </template>
 
