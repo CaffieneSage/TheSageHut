@@ -2,9 +2,11 @@
 import AdsNavigation from './components/AdsNavigation.vue';
 import MobileNavigation from './components/MobileNavigation.vue';
 import Navigation from './components/Navigation.vue';
+import { Analytics } from '@vercel/analytics/vue';
 </script>
 
 <template>
+  <Analytics />
   <mobile-navigation />
   <navigation />
   <ads-navigation />
