@@ -40,8 +40,8 @@
 
 <script setup>
 import FeatureSection from '../components/FeatureSection.vue'
-import Arya from "../assets/Arya.png"
-import Warrior2h from "../assets/Warrior2h.png"
+import Arya from "../assets/Arya.avif"
+import Warrior2h from "../assets/Warrior2h.avif"
 
 </script>
 
