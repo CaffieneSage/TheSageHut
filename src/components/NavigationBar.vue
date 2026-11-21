@@ -5,7 +5,7 @@ import TCSBanner from '../assets/TCSBanner.png'
 <template>
   <nav class="navigation">
     <div class="logo-area">
-      <img class="logo-img" :src="TCSBanner">
+      <img class="logo-img" :src="TCSBanner" />
     </div>
 
     <ul class="nav-links">
@@ -17,6 +17,9 @@ import TCSBanner from '../assets/TCSBanner.png'
         <ul class="dropdown-menu">
           <li><router-link to="/guides/guildwars">Guild Wars</router-link></li>
         </ul>
+        <ul class="dropdown-menu">
+          <li><router-link to="/guides/enshrouded">Enshrouded</router-link></li>
+        </ul>
       </li>
 
       <li><router-link to="/about">About</router-link></li>
@@ -25,8 +28,6 @@ import TCSBanner from '../assets/TCSBanner.png'
     </ul>
   </nav>
 </template>
-
-
 
 <style scoped>
 .navigation {
@@ -41,7 +42,6 @@ import TCSBanner from '../assets/TCSBanner.png'
   box-sizing: border-box;
 }
 
-
 .logo-area {
   width: 100%;
   position: relative;
@@ -52,7 +52,6 @@ import TCSBanner from '../assets/TCSBanner.png'
   margin-bottom: 40px;
   min-height: 250px;
 }
-
 
 .logo-img {
   width: 100%;

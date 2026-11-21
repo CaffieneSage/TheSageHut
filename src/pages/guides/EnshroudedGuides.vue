@@ -3,7 +3,9 @@
     <h1>Enshrouded Guides</h1>
 
     <ul>
-      <li><router-link to="/guides/iron">Iron Farming Guide</router-link></li>
+      <li>
+        <router-link to="/guides/EnshroudedWarrior"> Get Started With Warrior! </router-link>
+      </li>
     </ul>
   </GuideLayout>
 </template>

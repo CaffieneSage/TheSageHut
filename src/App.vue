@@ -1,14 +1,15 @@
 <script setup>
-import AdsNavigation from './components/AdsNavigation.vue';
-import MobileNavigation from './components/MobileNavigation.vue';
-import Navigation from './components/Navigation.vue';
-import { Analytics } from '@vercel/analytics/vue';
+import AdsNavigation from './components/AdsNavigation.vue'
+import MobileNavigation from './components/MobileNavigation.vue'
+//import NavigationBar from './components/NavigationBar.vue'
+import NavigationBar from './components/NavigationBar.vue'
+import { Analytics } from '@vercel/analytics/vue'
 </script>
 
 <template>
   <Analytics />
   <mobile-navigation />
-  <navigation />
+  <NavigationBar />
   <ads-navigation />
   <main class="content-layer">
     <router-view />
@@ -36,5 +37,4 @@ body {
     margin-right: 0;
   }
 }
-
 </style>

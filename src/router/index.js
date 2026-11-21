@@ -12,26 +12,31 @@ const routes = [
   { path: '/support', component: Support },
   { path: '/privacy', component: Privacy },
   {
-  path: '/guides/guildwars',
-  component: () => import('../pages/guides/GuildWars.vue')
+    path: '/guides/guildwars',
+    component: () => import('../pages/guides/GuildWarsGuides.vue'),
   },
   {
     path: '/guides/enshrouded',
-    component: () => import('../pages/guides/Enshrouded.vue')
+    component: () => import('../pages/guides/EnshroudedGuides.vue'),
   },
   //Guides
-  { path: '/guides/ElementalistStarterElites', 
+  {
+    path: '/guides/ElementalistStarterElites',
     component: () => import('../pages/guides/StarterElementalistElites.vue'),
   },
-  { path: '/guides/ThreeMesmerSkills', 
+  {
+    path: '/guides/ThreeMesmerSkills',
     component: () => import('../pages/guides/ThreeMesmerSkills.vue'),
-  }
-
+  },
+  {
+    path: '/guides/EnshroudedWarrior',
+    component: () => import('../pages/guides/EnshroudedWarrior.vue'),
+  },
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 })
 
 export default router
